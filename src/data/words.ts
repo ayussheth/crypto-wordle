@@ -83,7 +83,8 @@ export function getThemeWords(themeId: string): string[] {
   const theme = THEMES.find((t) => t.id === themeId);
   if (!theme) return THEMES[0].words;
   // Deduplicate
-  return [...new Set(theme.words.map((w) => w.toUpperCase().replace(/[^A-Z]/g, "")).filter((w) => w.length === 5))];
+  const set = new Set(theme.words.map((w) => w.toUpperCase().replace(/[^A-Z]/g, "")).filter((w) => w.length === 5));
+  return Array.from(set);
 }
 
 // Default: all crypto
