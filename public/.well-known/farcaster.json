@@ -1,15 +1,15 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjAsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
-    "payload": "eyJkb21haW4iOiJleGFtcGxlLmNvbSJ9",
-    "signature": "PLACEHOLDER_REPLACE_WITH_REAL_SIGNATURE"
+    "header": "eyJmaWQiOjM4NTUyOCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDBkMjA0NmE3MDcwOTJlN2NCM2VGYzdmMDNEMUQ3RjQxOTVlRTRkY2QifQ",
+    "payload": "eyJkb21haW4iOiJjcnlwdG8td29yZGxlLW11LnZlcmNlbC5hcHAifQ",
+    "signature": "nDETUaS6vOd1zWeKeYvGE/+lnECprjOIX1NslkL53mpRHIShzW+k45sVpE98OvJghZXFhjXcaERW4NFpHernshw="
   },
   "frame": {
     "version": "1",
-    "name": "CryptoWordle 🔗",
-    "iconUrl": "https://example.com/icon.png",
-    "homeUrl": "https://example.com",
-    "splashImageUrl": "https://example.com/splash.png",
+    "name": "CryptoWordle",
+    "iconUrl": "https://crypto-wordle-mu.vercel.app/icon.png",
+    "homeUrl": "https://crypto-wordle-mu.vercel.app",
+    "splashImageUrl": "https://crypto-wordle-mu.vercel.app/splash.png",
     "splashBackgroundColor": "#0a0a0f",
     "subtitle": "Daily crypto word puzzle"
   }
