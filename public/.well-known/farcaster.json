@@ -9,8 +9,19 @@
     "name": "CryptoWordle",
     "iconUrl": "https://crypto-wordle-mu.vercel.app/icon.png",
     "homeUrl": "https://crypto-wordle-mu.vercel.app",
+    "imageUrl": "https://crypto-wordle-mu.vercel.app/embed.png",
+    "buttonTitle": "Play CryptoWordle",
     "splashImageUrl": "https://crypto-wordle-mu.vercel.app/splash.png",
     "splashBackgroundColor": "#0a0a0f",
-    "subtitle": "Daily crypto word puzzle"
+    "subtitle": "Daily crypto word puzzle",
+    "description": "Wordle but for crypto. Guess the daily 5-letter crypto term in 6 tries. Choose from themes like DeFi, Degen Culture, Tech, and Protocols. Share your results with friends.",
+    "primaryCategory": "games",
+    "tags": ["crypto", "wordle", "game", "puzzle", "web3"],
+    "heroImageUrl": "https://crypto-wordle-mu.vercel.app/embed.png",
+    "tagline": "Guess the crypto word in 6 tries",
+    "ogTitle": "CryptoWordle 🔗",
+    "ogDescription": "Daily crypto word puzzle — can you guess today's word?",
+    "ogImageUrl": "https://crypto-wordle-mu.vercel.app/embed.png",
+    "screenshotUrls": ["https://crypto-wordle-mu.vercel.app/embed.png"]
   }
 }
