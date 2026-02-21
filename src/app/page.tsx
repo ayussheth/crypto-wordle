@@ -348,24 +348,8 @@ export default function Home() {
         </div>
       )}
 
-      {/* Hidden input for mobile keyboard */}
-      <input
-        ref={(el) => {
-          if (el && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-            el.focus();
-          }
-        }}
-        className="sr-only"
-        value={gameState.currentGuess}
-        onChange={(e) => setGameState(s => s ? {...s, currentGuess: e.target.value.toUpperCase().slice(0, 5)} : s)}
-        onKeyDown={(e) => {
-          if (e.key === 'Enter') handleKey('ENTER');
-          else if (e.key === 'Backspace') handleKey('⌫');
-        }}
-      />
-      
-      {/* Keyboard - hidden on mobile */}
-      <div className="w-full mt-auto pt-2 hidden sm:block">
+      {/* Keyboard */}
+      <div className="w-full mt-auto pt-2">
         <Keyboard keyStates={keyStates} onKey={handleKey} />
       </div>
     </main>
