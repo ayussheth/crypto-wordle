@@ -138,7 +138,7 @@ export function generateShareText(guesses: string[], answer: string, won: boolea
     })
     .join("\n");
 
-  return `CryptoWordle 🔗 #${dayNum} ${score}\n\n${grid}`;
+  return `CryptoWordle 🔗 #${dayNum} ${score}\n\n${grid}\n\nPlay now 👇\nhttps://crypto-wordle-mu.vercel.app`;
 }
 
 export function getHint(answer: string, guesses: string[], hintsUsed: number): string {
